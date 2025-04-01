@@ -11,6 +11,7 @@ import ServiceMasterClient from './ServiceMaster/ServiceMasterClient';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import "bootstrap/dist/css/bootstrap.min.css";
 import PaymentMaster from './PaymentIntegration/PaymentMaster';
+import UMEdit from './UserModule/UMEdit';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -24,6 +25,7 @@ root.render(
           <Route path='/locationmaster' element={<LOM />} />
           <Route path='/servicemaster' element={<ServiceMasterClient/>}/>
           <Route path='/paymentmaster' element={<PaymentMaster/>}/>
+          <Route path='/usermasteredit' element={<UMEdit/>}/>
         </Routes>
       
     </Router>
