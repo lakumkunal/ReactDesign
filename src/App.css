@@ -1,0 +1,7 @@
+/* Main container */
+.main-container {
+    width: 100%; /* 80% of the viewport width */
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 5vw; /* Padding based on the viewport width */
+    border-radius: 2vw; /* Rounded corners based on viewport width */
+    }
